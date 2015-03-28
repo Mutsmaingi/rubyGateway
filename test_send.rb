@@ -2,15 +2,17 @@
 require './AfricasTalkingGateway'
 
 # Specify your login credentials
-username = "MyAfricasTalkingUsername";
-apikey   = "MyAfricasTalkingAPIKey";
+username = "Mutsmaingi";
+apikey   = "c4659bc48c86f4fc5b6f43ecd71605f8579c8eb928337ef2afe83c16
+
+6b7fbad3";
 
 # Specify the numbers that you want to send to in a comma-separated list
 # Please ensure you include the country code (+254 for Kenya in this case)
-to      = "+254711XXXYYYZZZ,+254733XXXYYYZZZ";
+to      = "+254723426352";
 
 # And of course we want our recipients to know what we really do
-message = "I'm a lumberjack and it's ok, I sleep all night and I work all day"
+message = "I love ruby so much. I will be a good programer"
 
 # Create a new instance of our awesome gateway class
 gateway = AfricasTalkingGateway.new(username, apikey)
